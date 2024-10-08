@@ -3,6 +3,8 @@ const app = express();
 
 
 app.get('/',(req,res)=>{
+    console.log('Hello customer');
+    
     res.send('Hello Express!');
 });
 
